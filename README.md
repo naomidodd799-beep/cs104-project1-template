@@ -3,7 +3,7 @@
 
 ## Overview
 > This quiz is to test the knowledge of gaming and technology use of the user.
-> The user will answer five multiple choice questiones. Each answer would be stored in a variable and checked using conditional statments.
+> The user will answer five multiple choice questions. Each answer would be stored in a variable and checked using conditional statments.
 > Correct answers will be increase the users score. At the end of the quiz the user total score will determine the final message they received.
 
 ## Sample Questions and Responses
@@ -19,7 +19,7 @@
 >  3. 5
 
 
->  3 Which device is manly used to controll a game?
+>  3 Which device is mainly used to control a game?
 >  1. controller
 >  2. printer
 >  3. scanner
