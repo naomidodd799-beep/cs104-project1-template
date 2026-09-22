@@ -1,63 +1,83 @@
-# [Your Project Name Here]
+# [Are you a gamer quiz]
 > A short one-line tagline for your quiz or questionnaire
 
 ## Overview
-> **DELETE AND REPLACE ME:** Describe your program's focus, the type of
-> program it is (quiz, personality test, or recommendation tool), and the
-> final output a user will receive. Make it clear how user input and
-> conditional logic work together to produce that result.
->
-> Example: "This program quizzes users on Impressionist art. Based on
-> their answers, users earn points, and their final score determines
-> their level of knowledge on the topic."
+> This quiz is to test the knowledge of gaming and technology use of the user.
+> The user will answer five multiple choice questiones. Each answer would be stored in a variable and checked using conditional statments.
+> Correct answers will be increase the users score. At the end of the quiz the user total score will determine the final message they received.
 
 ## Sample Questions and Responses
-> **DELETE AND REPLACE ME:** List at least five questions you'll ask the
-> user, along with the possible responses for each. Keep every question
-> closed-ended (numbered options or yes/no) so each response can be
-> handled directly by an `if`, `elif`, or `else` statement.
->
-> Example:
-> Which of the following painters is an Impressionist?
-> 1. Monet
-> 2. Warhol
-> 3. Rembrandt
+> 1 What company makes the Playstation?
+> 1. Microsoft
+> 2. Sony
+> 3. Nintendo
+
+
+> 2 How many players are able to play on the court in basketball?
+>  1. 10
+>  2. 8
+>  3. 5
+
+
+>  3 Which device is manly used to controll a game?
+>  1. controller
+>  2. printer
+>  3. pen
+
+
+> 4 which game features the My career game mode?
+> 1. NBA 2k
+> 2. MarioKart
+> 3. Fortnite
+
+> 5 Which of these are a gaming console?
+> 1. Macbook
+> 2. lenox
+> 3. PS5
+
+
 
 ## Variables
-> **DELETE AND REPLACE ME:** List the variables your program uses. For
-> each one, note what it stores and why you structured it that way,
-> especially for variables tracking results, explain whether a single
-> variable or multiple variables makes sense for your program's logic.
->
-> Example:
-> - `score` (int): tracks total quiz points. A single variable works here
->   since results are cumulative and only one final score matters.
-> - `decade_1920s_points`, `decade_1960s_points`, `decade_1980s_points`
->   (int): separate variables needed since multiple decades can tie for
->   highest score, one combined variable couldn't represent that.
-> - `user_choice` (str or int): stores the user's response to a question,
->   compared against expected options to decide which branch of the
->   conditional runs.
+> answer one (str)stores the user response to question one
+> answer two (str)stores the user response to question two
+> answer three (str)stores the user response to question three
+> answer four (str)stores the user response to question four
+> answer five (str)stores the user response to question five
+> score (int) keeps track of user total correct answer
 
 ## Conditional Logic Outline
-> **DELETE AND REPLACE ME:** Outline every conditional statement in your
-> program, in the order they appear. For each one, describe it in plain
-> language (no code needed): which question/condition it relates to,
-> each branch (`if`/`elif`/`else`), the exact condition that triggers
-> each branch, the action(s) that happen in each branch, and note any
-> nested conditionals and why they're nested.
->
-> Example:
-> - **Conditional statement 1** — related to "Which of the following
->   painters is an Impressionist? 1-Monet 2-Warhol 3-Rembrandt"
->   - `if` response is 1 (Monet): display congratulatory message,
->     increment `score` by 1
->   - `else`: display incorrect message and explain the correct answer
->
-> - **Conditional statement 2** — reveals final results based on `score`
->   - `if` score is 3: display high-knowledge message
->   - `elif` score is 1 or 2: display some-knowledge message
->   - `else`: display message encouraging the user to learn more
+>Conditional statement one - Checks the answer to question 1 about which company makes
+>playstation.
+  - if the user chooses Sony display a correct message and increase score by one
+  - elif the user chooses Microsoft  or Nintendo display a incorrect message 
+  - else display invalid choice message
+
+> Conditional statement 2 checks the answer to question 2 about how many basketball players
+> from one team are able to be on the court.
+   - if the user chooses 5 display a correct message and increase score by 1 
+   - elif the user chooses 6 or 7 display an incorrect message 
+   - else display an invalid choise message 
+
+> Conditional statement 3 checks the answer to question 3 about which device is used to control
+> a video game
+  - if the user chooses controller display a correct message and increase score by one
+  - elif the user chooses chooses printer or scanner display an incorrect message 
+  - else display an invalid choice message
+
+  > Conditional statement 4 checks the answer to question 4 about which game has My career .
+    - if the user the chooses Nba 2k display correct message and increase score by one 
+    - elif the user chooses MarioKart or Fortnite display incorrect message 
+    - else display an invalid choice message
+
+> Conditional statement 5 checks the answer to question 5 about which device is a gaming console
+  - if the user chooses PS5 display a correct messag and increase score by one
+  - elif the user chooses lenox or Macbook display incorrect message 
+  - else display an invlaid choice message
+
+> Conditional statement 6 checks user final score 
+  - if the score is 5 display perfect score message 
+  - elif the score is greater than or equal to 3 and less than 5 display good job message
+  - else display a message saying keep practicing
 
 ## How to Run
 1. Clone this repo
