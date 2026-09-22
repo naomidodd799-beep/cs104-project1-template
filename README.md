@@ -14,18 +14,18 @@
 
 
 > 2 How many players are able to play on the court in basketball?
->  1. 10
->  2. 8
+>  1. 7
+>  2. 6
 >  3. 5
 
 
 >  3 Which device is manly used to controll a game?
 >  1. controller
 >  2. printer
->  3. pen
+>  3. scanner
 
 
-> 4 which game features the My career game mode?
+> 4 Which game features the My career game mode?
 > 1. NBA 2k
 > 2. MarioKart
 > 3. Fortnite
@@ -48,7 +48,7 @@
 ## Conditional Logic Outline
 >Conditional statement one - Checks the answer to question 1 about which company makes
 >playstation.
-  - if the user chooses Sony display a correct message and increase score by one
+  - if the user chooses Sony display a correct message and increase score by 1
   - elif the user chooses Microsoft  or Nintendo display a incorrect message 
   - else display invalid choice message
 
@@ -56,21 +56,21 @@
 > from one team are able to be on the court.
    - if the user chooses 5 display a correct message and increase score by 1 
    - elif the user chooses 6 or 7 display an incorrect message 
-   - else display an invalid choise message 
+   - else display an invalid choice message 
 
 > Conditional statement 3 checks the answer to question 3 about which device is used to control
 > a video game
-  - if the user chooses controller display a correct message and increase score by one
+  - if the user chooses controller display a correct message and increase score by 1
   - elif the user chooses chooses printer or scanner display an incorrect message 
   - else display an invalid choice message
 
   > Conditional statement 4 checks the answer to question 4 about which game has My career .
-    - if the user the chooses Nba 2k display correct message and increase score by one 
+    - if the user the chooses NBA 2k display correct message and increase score by 1
     - elif the user chooses MarioKart or Fortnite display incorrect message 
     - else display an invalid choice message
 
 > Conditional statement 5 checks the answer to question 5 about which device is a gaming console
-  - if the user chooses PS5 display a correct messag and increase score by one
+  - if the user chooses PS5 display a correct messag and increase score by 1
   - elif the user chooses lenox or Macbook display incorrect message 
   - else display an invlaid choice message
 
