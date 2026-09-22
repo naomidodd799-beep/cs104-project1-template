@@ -72,7 +72,7 @@
 > Conditional statement 5 checks the answer to question 5 about which device is a gaming console
   - if the user chooses PS5 display a correct messag and increase score by 1
   - elif the user chooses lenox or Macbook display incorrect message 
-  - else display an invlaid choice message
+  - else display an invalid choice message
 
 > Conditional statement 6 checks user final score 
   - if the score is 5 display perfect score message 
