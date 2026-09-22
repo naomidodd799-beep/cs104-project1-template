@@ -1,4 +1,4 @@
-# [Are you a gamer quiz]
+# Are you a gamer quiz
 > A short one-line tagline for your quiz or questionnaire
 
 ## Overview
